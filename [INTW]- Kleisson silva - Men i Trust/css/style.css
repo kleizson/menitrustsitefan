@@ -1,0 +1,124 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #172130;
+}
+section,article{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+p{
+	text-align:justify;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	padding:5px;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1,h2,h3,a{
+	color:white;
+	
+}
+h3 {
+	margin:5px;
+}
+#titulo {
+	font-size: 50px;
+	color: white;
+}
+.menu{
+	background-color: black;
+}
+.nav-item{
+	color:white;
+	padding: 5px;
+	background-color: black;
+}
+.nav-item:hover{
+	background-color: gray;
+}
+footer{
+	background-color: black;
+	color:white;
+	padding: 10px;
+	text-align: center;
+}
+.album{
+	margin-right: 20px; 
+}
+#cabecalho-inicio{
+	background-image: url("../img/cabecalho1.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+#cabecalho-sobre{
+	background-image: url("../img/cabecalho.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+#cabecalho-shows{
+	background-image: url("../img/cabecalho2.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+#cabecalho-redes{
+	background-image: url("../img/cabecalho3.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+a{
+	text-decoration:none;
+}
+.legenda-album{
+	color:white;
+	text-align:left;
+	margin:2px;
+}
+#img-sobre{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+figcaption{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	padding:5px;
+}
+.tabela-shows{
+	border: 1px solid #29335C;
+	color: white;
+	margin-bottom: 16px;
+	margin-top: 5px;
+	right: 50%;
+	left: 50%;
+}
+#spotify-text,#youtube-text,#tumblr-text,#instagram-text{
+	color: white;
+	font-size: 150px;
+	margin: 60px;
+	font-family:Impact, Charcoal, sans-serif;
+}
+#spotify-text:hover{
+	color:#81b71a;
+}
+#youtube-text:hover{
+	color:#ff0000;
+}
+#instagram-text:hover{
+	color: black;
+}
+#tumblr-text:hover{
+	color:#314358;
+}
+#tabela-social{
+	margin-top: 20px;
+}
